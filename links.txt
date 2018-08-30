@@ -1,10 +1,10 @@
-Ä¿Â¼Ê½ÔÄ¶Á£¨²©¿Í»òÂÛÌ³ÕûÀí£©
+ç›®å½•å¼é˜…è¯»ï¼ˆåšå®¢æˆ–è®ºå›æ•´ç†ï¼‰
 
-1.¾²Ú×µÄ²©¿Í
+1.é™è°§çš„åšå®¢
 https://cuiqingcai.com/
 
 
-2.V2EX ´ğÒÉÂÛÌ³
+2.V2EX ç­”ç–‘è®ºå›
 
 https://www.v2ex.com/t/373584
 
@@ -13,19 +13,22 @@ https://www.v2ex.com/t/373584
 https://segmentfault.com/
 
 
-4.²©¿ÍÔ°ÌáÎÊ
+4.åšå®¢å›­æé—®
 
 https://q.cnblogs.com/
 
 
 
-5. PYTHONÖĞÎÄ¿ª·¢ÕßÉçÇø
+5. PYTHONä¸­æ–‡å¼€å‘è€…ç¤¾åŒº
 https://www.pythontab.com
 
-6. ½Å±¾Ö®¼Ò
+6. è„šæœ¬ä¹‹å®¶
 https://www.jb51.net/list/index_96.htm
 
 
-7. linux¹«Éç
+7. linuxå…¬ç¤¾
 
 https://www.linuxidc.com/RedLinux/
+
+8.å®éªŒæ¥¼
+https://www.shiyanlou.com/questions/
