@@ -37,3 +37,10 @@ https://www.shiyanlou.com/questions/
 9. 开源中国问答（XHR分析）
 
 https://www.oschina.net/question
+
+10. 简书 python关键字文章
+https://www.jianshu.com/search?q=python&page=1&type=note
+
+11. 慕课网答疑
+
+https://www.imooc.com/wenda
