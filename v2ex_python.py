@@ -12,19 +12,12 @@ import requests
 #请求
 
 def call_page(url):
-    proxies = {'https':'https://123.157.67.30'}
     headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'}
-    response = requests.get(url,headers=headers,proxies=proxies)
+    response = requests.get(url,headers=headers)
     return response.text
 
 
-def random_getProxy(ip):
-    # 随机从MySQL中提取一个，存储这个随机的数据 # 先用scrapy爬取一些数据再说
-     ip = {}
-     port = {}
-     style = {}
 
-# 随机生成一个代理ip
 
 # 解析
 
@@ -57,14 +50,14 @@ def insertDB(content):
         pass
 
 if __name__ == '__main__':
-    for offset in range(1,504):
 
+    for offset in range(1,504):
         url = 'https://www.v2ex.com/go/python?p=' + str(offset)
         html = call_page(url)
-        time.sleep(2)
         content = parse_page(html)
         insertDB(content)
         print(offset)
+        time.sleep(3)
 
 # create table v2ex_python(
 # id int not null primary key auto_increment,
