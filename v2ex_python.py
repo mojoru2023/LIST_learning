@@ -55,7 +55,8 @@ if __name__ == '__main__':
         url = 'https://www.v2ex.com/go/python?p=' + str(offset)
         html = call_page(url)
         content = parse_page(html)
-        insertDB(content)
+        print(content)
+        # insertDB(content)
         print(offset)
         time.sleep(3)
 
