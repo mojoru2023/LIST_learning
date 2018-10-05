@@ -1,96 +1,86 @@
+# 写个小脚本就搞定了！
+import re
 
+import pymysql
+
+import time
 
 import requests
-from lxml import etree
-from selenium import webdriver
-import pymysql
-import datetime
-import time
-# driver = webdriver.Chrome()
-#
-# def get_firs_page(url):
-#     driver.get(url)
-#     html = driver.page_source
-#     time.sleep(3)
-#     return html
-
-import time
 from requests.exceptions import ConnectionError
 from selenium import webdriver
 from lxml import etree
 import datetime
-driver = webdriver.Chrome()
+# driver = webdriver.Firefox()
+from requests.exceptions import RequestException
+
+#请求  关键在于遍历点击 (操作动作细分！)
+# 1. 登录页面可以复用
+#2. 点击个人页面，寻求遍历
+#3. 点击个人页面，然后翻页，在这个页面最终关闭浏览器！
+# 问题，遍历之后如果从最开始又回到之前的下一个！除非使用减去一个容器里面的数字，下一次绝对是最新的！
+
+def queue_num():
+
+    from queue import Queue
+    q = Queue()
+    for num in range(1, 526):
+        q.put(num)
+        yield q.get()
+
+def get_one_page(url):
+    headers = {"user-agent":'my-app/0.0.1'}
+    try:
+        response = requests.get(url,headers=headers)
+        if response.status_code == 200:
+            return response.text
+        return None
+    except RequestException:
+        return None
 
 
-def get_first_page(url):
-    driver.get(url)
-    # time.sleep(3)
-    html = driver.page_source
-    # time.sleep(3)
-    return html
 
 
-# 不用遍历url取代翻页！
-def parse_page(html):
-    seletor = etree.HTML(html)
-    title = seletor.xpath('//*[@id="qa"]/section/div[2]/h2/a/text()')
-    link = seletor.xpath('//*[@id="qa"]/section/div[2]/h2/a/@href')
-    for i1,i2 in zip(title,link):
-        return (i1,'https://segmentfault.com'+i2)
+def parse_html(html):  # 正则专门有反爬虫的布局设置，不适合爬取表格化数据！
+    selector = etree.HTML(html)
+    link = selector.xpath('//*[@id="blog"]/section/div/h2/a/@href')
+    title = selector.xpath('//*[@id="blog"]/section/div/h2/a/text()')
+    for i1,i2 in zip(link,title):
+        yield ('https://segmentfault.com'+str(i1),i2)
 
 
 
-# 不用遍历url取代翻页！
 
-# def next_page():
-#     for i in range(1,288):  # selenium 循环翻页成功！
-#         driver.find_element_by_xpath('//*[@id="contents"]/div[2]/div[1]/div/div[3]/div[2]/a[last()-1]').click()
-#         time.sleep(3)
-#         html = driver.page_source
-#         return html
+
+
+#存储到MySQL中
 
 def insertDB(content):
     connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='list_learning',
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
-
     cursor = connection.cursor()
     try:
-        cursor.executemany('insert into scriptHome_javascript (title,link) values (%s,%s)', content)
+        cursor.executemany('insert into segmentfalut_flask_blog (title,link) values (%s,%s)', content)
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
-    except TypeError :
+    except StopIteration :
         pass
 
-url = 'https://segmentfault.com/t/flask/questions?type=votes&page=8'
-html = get_first_page(url)
-print(html)
-
-
-# if __name__ == '__main__':
-#     for offset in range(1,67):
-#         url = 'https://segmentfault.com/t/flask/questions?type=votes&page=' + str(offset)
-#         html = get_one_page(url)
-#
-#         content = parse_page(html)
-
-        # insertDB(content)
-        # time.sleep(1)
-        # print(datetime.datetime.now())
 
 
 
 
+if __name__ == '__main__':
+    for offset in range(1,21):
+        url = 'https://segmentfault.com/t/flask/blogs?page=' + str(offset)
+        html = get_one_page(url)
+        content = parse_html(html)
+        insertDB(content)
+        print(url)
 
 
-
-
-#
-# create table scriptHome_javascript(
-#     id int not null primary key auto_increment,
-# title varchar(88),
-# link varchar(66)
-# ) engine=Innodb default charset=utf8;
-# # #
-# # #
-# drop table scriptHome_python;
+# create table segmentfalut_flask_blog(
+# id int not null primary key auto_increment,
+# link varchar(100),
+# title varchar(50)
+# ) engine=InnoDB  charset=utf8;
