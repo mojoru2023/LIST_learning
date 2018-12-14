@@ -6,44 +6,28 @@ from selenium import webdriver
 import pymysql
 import datetime
 import time
-# driver = webdriver.Chrome()
-#
-# def get_firs_page(url):
-#     driver.get(url)
-#     html = driver.page_source
-#     time.sleep(3)
-#     return html
+driver = webdriver.Chrome()
 
-headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0'}
+
+
 
 
 
 def get_one_page(url):
-    req= requests.get(url,headers=headers)
-      #  requests 中文编码的终极办法！
-    if req.encoding == 'ISO-8859-1':
-        encodings = requests.utils.get_encodings_from_content(req.text)
-        if encodings:
-            encoding = encodings[0]
-        else:
-            encoding = req.apparent_encoding
-
-        # encode_content = req.content.decode(encoding, 'replace').encode('utf-8', 'replace')
-        global encode_content
-        encode_content = req.content.decode(encoding, 'replace')  # 如果设置为replace，则会用?取代非法字符；
-        return  (encode_content)
-
-
+    driver.get(url)
+    html = driver.page_source
+    return html
 
 # 不用遍历url取代翻页！
-def parse_page(html):
+
+
+def parse_page(self,html):
+    self.html = html
     seletor = etree.HTML(html)
     title = seletor.xpath("//div[@class='artlist clearfix']/dl/dt/a[@title]/text()")
     link = seletor.xpath("//div[@class='artlist clearfix']/dl/dt/a/@href")
-    for i1,i2 in zip(title,link):
-        yield (i1,'https://www.jb51.net'+i2)
-
-
+    for i1, i2 in zip(title, link):
+        yield (i1, 'https://www.jb51.net' + i2)
 
 # 不用遍历url取代翻页！
 
@@ -64,18 +48,22 @@ def insertDB(content):
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
-    except TypeError :
+    except TypeError:
         pass
 
+url = 'https://www.ctolib.com'
+html = get_one_page(url)
+print(html)
 
-if __name__ == '__main__':
-    for offset in range(1,29):
-        url = 'https://www.jb51.net/list/list_5_' + str(offset) + '.htm'
-        html = get_one_page(url)
-        content = parse_page(html)
-        insertDB(content)
-        time.sleep(1)
-        print(datetime.datetime.now())
+
+# if __name__ == '__main__':
+#     for offset in range(1,29):
+#         url = 'https://www.jb51.net/list/list_5_' + str(offset) + '.htm'
+#         html = get_one_page(url)
+#         content = parse_page(html)
+#         insertDB(content)
+#         time.sleep(1)
+#         print(datetime.datetime.now())
 
 
 
