@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c66f57-0023-4d48-aa4b-19ab838653c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CTOLib/python_CL.py" beforeDir="false" afterPath="$PROJECT_DIR$/CTOLib/python_CL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CTOLib/python_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/CTOLib/python_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,34 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CTOLib/python_link.py">
+        <entry file="file://$PROJECT_DIR$/CTOLib/链接/python_link.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="72" lean-forward="true" selection-end-line="88" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CTOLib/android_link.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="71" lean-forward="true" selection-end-line="88" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="83" column="18" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CTOLib/c++_link.py">
+        <entry file="file://$PROJECT_DIR$/CTOLib/links_details/links_details_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+            <state relative-caret-position="294">
+              <caret line="113" selection-start-line="113" selection-start-column="2" selection-end-line="118" selection-end-column="32" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -85,6 +69,9 @@
       <find>&lt;div class=&quot;row row-sm&quot;&gt;</find>
       <find>&lt;a href=&quot;/categories/python-content-management-systems.html&quot;&gt;</find>
       <find>&lt;a href=&quot;.*?.html&quot;&gt;</find>
+      <find>saiorm是一款简单易用的数据库工具，支持链式调用，学习成本极低</find>
+      <find>'&lt;a href=(.*?)&gt;(.*?)&lt;/a&gt;</find>
+      <find>weihaipy-saiorm.html</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -130,6 +117,8 @@
         <option value="$PROJECT_DIR$/CTOLib/python_link.py" />
         <option value="$PROJECT_DIR$/CTOLib/android_link.py" />
         <option value="$PROJECT_DIR$/CTOLib/c++_link.py" />
+        <option value="$PROJECT_DIR$/CTOLib/链接/python_link.py" />
+        <option value="$PROJECT_DIR$/CTOLib/links_details/links_details_python.py" />
       </list>
     </option>
   </component>
@@ -140,16 +129,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="574" />
-    <option name="y" value="156" />
-    <option name="width" value="1201" />
-    <option name="height" value="643" />
+    <option name="x" value="159" />
+    <option name="y" value="94" />
+    <option name="width" value="1181" />
+    <option name="height" value="663" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,18 +155,23 @@
             <path>
               <item name="LIST_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="LIST_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="CTOLib" type="462c0819:PsiDirectoryNode" />
+              <item name="links_details" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LIST_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LIST_learning" type="462c0819:PsiDirectoryNode" />
               <item name="segmentfault" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Recoding_Linux" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -193,28 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.linux_link">
-    <configuration name="android_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LIST_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CTOLib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CTOLib/android_link.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.links_details_python">
     <configuration name="c++_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LIST_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,6 +252,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="links_details_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LIST_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CTOLib/links_details" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CTOLib/links_details/links_details_python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="linux_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LIST_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,19 +295,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.android_link" />
       <item itemvalue="Python.c++_link" />
       <item itemvalue="Python.java_link" />
       <item itemvalue="Python.javascript_link" />
       <item itemvalue="Python.linux_link" />
+      <item itemvalue="Python.links_details_python" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.links_details_python" />
         <item itemvalue="Python.linux_link" />
         <item itemvalue="Python.javascript_link" />
         <item itemvalue="Python.java_link" />
         <item itemvalue="Python.c++_link" />
-        <item itemvalue="Python.android_link" />
       </list>
     </recent_temporary>
   </component>
@@ -333,12 +328,12 @@
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22156134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19033457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18290599" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3253833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41908008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,7 +341,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32914925" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.40306833" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4020443" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -458,30 +453,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CTOLib/python_link.py">
+    <entry file="file://$PROJECT_DIR$/CTOLib/python_link.py" />
+    <entry file="file://$PROJECT_DIR$/CTOLib/android_link.py" />
+    <entry file="file://$PROJECT_DIR$/CTOLib/c++_link.py" />
+    <entry file="file://$PROJECT_DIR$/CTOLib/链接/python_link.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="72" lean-forward="true" selection-end-line="88" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="174">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CTOLib/android_link.py">
+    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/links_details_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="71" lean-forward="true" selection-end-line="88" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CTOLib/c++_link.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="294">
+          <caret line="113" selection-start-line="113" selection-start-column="2" selection-end-line="118" selection-end-column="32" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
