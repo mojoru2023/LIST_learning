@@ -46,7 +46,7 @@ def insertDB(content):
 
     cursor = connection.cursor()
     try:
-        cursor.executemany('insert into ctolib_python_links_details (link,title,DE) values (%s,%s,%s)', content)
+        cursor.executemany('insert into ctolib_andriod_links_details (link,title,DE) values (%s,%s,%s)', content)
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
@@ -80,8 +80,8 @@ if __name__ == '__main__':
     connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='list_learning',
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cursor = connection.cursor()
-    for i in range(1,81):
-        sql = 'select * from ctolib_python_links where id = %s ' % i
+    for i in range(1,56):
+        sql = 'select * from ctolib_andriod_links where id = %s ' % i
         # #执行sql语句
         cursor.execute(sql)
         # #获取所有记录列表
@@ -101,12 +101,12 @@ if __name__ == '__main__':
             time.sleep(1)
 
 #
-# create table ctolib_python_links_details(
+# create table ctolib_andriod_links_details(
 #     id int not null primary key auto_increment,
 # link text,
 # title text,
 # DE varchar(100)
 # ) engine=Innodb  charset=utf8;
-# #
+#
 # #
 # drop table ctolib_python_links_details;
