@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99c66f57-0023-4d48-aa4b-19ab838653c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CTOLib/links_details/links_details_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/CTOLib/links_details/links_details_python.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +25,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CTOLib/links_details/links_details_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+            <state relative-caret-position="144">
+              <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery之家/jquery库/jquery_home.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="52" column="26" lean-forward="true" selection-end-line="86" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery之家/jquery库/jquery_home_imgs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -41,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_andriod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="83" column="49" selection-end-line="112" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-end-line="112" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -53,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_cpp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="106" column="13" lean-forward="true" selection-end-line="112" />
+            <state relative-caret-position="1389">
+              <caret line="106" column="13" selection-end-line="112" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -65,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_java.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="984">
               <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
@@ -75,9 +98,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script_home/scriptHome_ajax.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="30" />
+              <folding>
+                <element signature="e#2#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_javascript.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="1065">
               <caret line="79" column="62" selection-end-line="112" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
@@ -89,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_linux.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="1110">
               <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
@@ -176,6 +211,8 @@
         <option value="$PROJECT_DIR$/CTOLib/links_details/link_details_javascript.py" />
         <option value="$PROJECT_DIR$/CTOLib/links_details/link_details_linux.py" />
         <option value="$PROJECT_DIR$/CTOLib/links_details/links_details_python.py" />
+        <option value="$PROJECT_DIR$/jquery之家/jquery库/jquery_home.py" />
+        <option value="$PROJECT_DIR$/jquery之家/jquery库/jquery_home_imgs.py" />
       </list>
     </option>
   </component>
@@ -186,10 +223,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="159" />
-    <option name="y" value="94" />
-    <option name="width" value="1181" />
-    <option name="height" value="663" />
+    <option name="width" value="1366" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -207,24 +242,18 @@
             <path>
               <item name="LIST_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="LIST_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="CTOLib" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery之家" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LIST_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="LIST_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="CTOLib" type="462c0819:PsiDirectoryNode" />
-              <item name="links_details" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery之家" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery库" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LIST_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="LIST_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="CTOLib" type="462c0819:PsiDirectoryNode" />
-              <item name="链接" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LIST_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LIST_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="segmentfault" type="462c0819:PsiDirectoryNode" />
+              <item name="script_home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +263,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Recoding_Linux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -251,49 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.links_details_python">
-    <configuration name="c++_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LIST_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CTOLib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CTOLib/c++_link.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="java_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LIST_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CTOLib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CTOLib/java_link.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.jquery_home_imgs">
     <configuration name="javascript_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LIST_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,6 +294,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CTOLib/javascript_link.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jquery_home" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LIST_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jquery之家/jquery库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jquery之家/jquery库/jquery_home.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jquery_home_imgs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LIST_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jquery之家/jquery库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jquery之家/jquery库/jquery_home_imgs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,19 +387,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.c++_link" />
-      <item itemvalue="Python.java_link" />
       <item itemvalue="Python.javascript_link" />
       <item itemvalue="Python.linux_link" />
       <item itemvalue="Python.links_details_python" />
+      <item itemvalue="Python.jquery_home" />
+      <item itemvalue="Python.jquery_home_imgs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jquery_home_imgs" />
+        <item itemvalue="Python.jquery_home" />
         <item itemvalue="Python.links_details_python" />
         <item itemvalue="Python.linux_link" />
         <item itemvalue="Python.javascript_link" />
-        <item itemvalue="Python.java_link" />
-        <item itemvalue="Python.c++_link" />
       </list>
     </recent_temporary>
   </component>
@@ -389,13 +418,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19033457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19033457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18290599" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41908008" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41908008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,16 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script_home/scriptHome_ajax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="29" selection-end-line="95" />
-          <folding>
-            <element signature="e#2#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/segmentfault/python_blog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -525,30 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_andriod.py">
+    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/links_details_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="83" column="49" selection-end-line="112" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_java.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_cpp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="106" column="13" lean-forward="true" selection-end-line="112" />
+        <state relative-caret-position="144">
+          <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
@@ -557,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_javascript.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="1065">
           <caret line="79" column="62" selection-end-line="112" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
@@ -567,7 +567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_linux.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="1110">
           <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
@@ -575,10 +575,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/links_details_python.py">
+    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_andriod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-end-line="112" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_cpp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1389">
+          <caret line="106" column="13" selection-end-line="112" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CTOLib/links_details/link_details_java.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
           <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_home/scriptHome_ajax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#2#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery之家/jquery库/jquery_home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="52" column="26" lean-forward="true" selection-end-line="86" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery之家/jquery库/jquery_home_imgs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
